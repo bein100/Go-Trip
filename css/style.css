@@ -1,0 +1,269 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+/*Header Start*/
+
+nav {
+    background: #3E8989;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 0;
+    align-items: center;
+
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 30px;
+    font-family: Rubik M;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+header ul a {
+    color: #FFFFFF;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+    transition: 300ms;
+    padding: 0 10px;
+}
+
+header ul a:hover {
+    padding: 5px 10px;
+    border-bottom: 3px solid white;
+}
+
+.header__nav-form {
+    display: flex;
+}
+
+.header__nav-form input {
+    border-radius: 20px 0px 0px 20px;
+    width: 216px;
+    height: 35px;
+    border-style: hidden;
+    outline: none;
+    padding: 8px 0 8px 15px;
+
+}
+
+
+.header__nav-form button {
+    width: 74px;
+    height: 35px;
+    padding: 9px 14px;
+    color: #FFFFFF;
+    font-family: Rubik R;
+    font-size: 14px;
+    line-height: 17px;
+    background: #295E5E;
+    border-radius: 0px 20px 20px 0px;
+    border-style: hidden;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(../img/headerbgd.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-family: Rubik SB;
+    font-size: 80px;
+    line-height: 95px;
+    margin-bottom: 20px;
+    margin-top: 250px;
+}
+
+.header-txt {
+    font-family: Rubik M;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.header-btn-more {
+    color: #FFFFFF;
+    font-family: Inter SB;
+    font-size: 18px;
+    line-height: 22px;
+    background: #B4436C;
+    border-radius: 30px;
+    padding: 14px 78px;
+    transition: 0.4s;
+    margin-bottom: 288px;
+}
+
+
+.header-btn-more:hover {
+    color: #B4436C;
+    background: #FFFFFF;
+}
+
+/*Header End*/
+
+
+/*Main Start*/
+
+.about {
+    background: #FFFFFF;
+    margin: 80px 0 97px 0;
+}
+
+.main-title {
+    text-align: center;
+    color: #3E8989;
+    font-family: Inter SB;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+
+.about-content p {
+    max-width: 545px;
+}
+
+.about-content {
+    display: flex;
+    font-family: Rubik R;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.catalog {
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 263px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.btn {
+    font-family: Inter SB;
+    font-size: 24px;
+    color: black;
+    transition: 300ms;
+}
+
+.catalog-content {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+
+.btn:hover {
+    color: #B4436C;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 104px;
+}
+
+.contacts-title {
+    padding-bottom: 50px;
+    font-family: Inter SB;
+    font-size: 40px;
+    color: #3E8989;
+}
+
+.contacts-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 388px;
+}
+
+.contacts-content p {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: Rubik R;
+}
+
+.contacts-content ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts-content .data {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: Rubik R;
+
+}
+
+/*Main End*/
+
+
+/*Footer Start*/
+
+footer {
+    background: #3E8989;
+}
+
+h3 {
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik R;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+footer ul {
+    font-family: Rubik M;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 40px 0 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer ul a {
+    color: #FFFFFF;
+}
+
+
+/*Footer End*/
+
+.burger{
+    display: none;
+    visibility: hidden;
+}
